@@ -1,0 +1,66 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/mfv-computer-0177/mfw/measure_coverage_standard/ruby/lib/ruby_rspec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          3,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+          "[:if, 0, 7, 4, 11, 7]": {
+            "[:then, 1, 8, 6, 8, 35]": 1,
+            "[:else, 2, 10, 6, 10, 33]": 2
+          }
+        }
+      },
+      "/Users/mfv-computer-0177/mfw/measure_coverage_standard/ruby/spec/tc2.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/mfv-computer-0177/mfw/measure_coverage_standard/ruby/spec/tc3.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1692774464
+  }
+}
