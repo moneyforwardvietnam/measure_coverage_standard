@@ -1,6 +1,5 @@
 #! /bin/sh
 set -eu
 
-gobco .
-rm -f results/TC-ALL-branch-cover.json
-gobco -branch -stats results/TC-ALL-branch-cover.json coverage
+rm -f results/TC_ALL-branch-cover.json
+gobco -branch -stats results/TC_ALL-branch-cover.json -test -run="(TestTC1|TestTC2|TestTC3)" coverage
