@@ -1,0 +1,8 @@
+[
+	{
+		"Start": "coverage/go_cover.go:4:5",
+		"Code": "a > 0 && a%2 == 0",
+		"TrueCount": 0,
+		"FalseCount": 1
+	}
+]
