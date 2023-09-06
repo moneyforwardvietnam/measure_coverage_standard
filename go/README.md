@@ -20,8 +20,8 @@ We have below test cases:
 
 ```
 TC1:   result = CheckNumber(2)    # Positive and Even
-TC2:   result = CheckNumber(3)    # Positive and Odd
-TC3:   result = CheckNumber(-1)   # Negative
+TC2:   result = CheckNumber(3)    # Negative or Odd
+TC3:   result = CheckNumber(-1)   # Negative or Odd
 ```
 
 Test result
