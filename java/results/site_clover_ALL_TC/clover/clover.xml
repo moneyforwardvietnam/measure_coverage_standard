@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1694082416221" clover="4.4.1">
+   <project name="java_coverage_openclover 1.0-SNAPSHOT" timestamp="1694082412749">
+      <metrics coveredelements="6" complexity="3" loc="10" methods="1" classes="1" statements="3" packages="1" coveredconditionals="2" coveredmethods="1" elements="6" ncloc="8" files="1" conditionals="2" coveredstatements="3"/>
+      <package name="example">
+         <metrics coveredelements="6" complexity="3" loc="10" methods="1" classes="1" statements="3" coveredconditionals="2" coveredmethods="1" elements="6" ncloc="8" files="1" conditionals="2" coveredstatements="3"/>
+         <file path="/Users/kuppusamy.suganya/Documents/github/moneyforwardvietnam/measure_coverage_standard/java/src/main/java/example/JavaCoverage.java" name="JavaCoverage.java">
+            <metrics coveredelements="6" coveredconditionals="2" complexity="3" loc="10" coveredmethods="1" methods="1" elements="6" classes="1" ncloc="8" statements="3" conditionals="2" coveredstatements="3"/>
+            <class name="JavaCoverage">
+               <metrics coveredelements="6" coveredconditionals="2" complexity="3" coveredmethods="1" methods="1" elements="6" statements="3" conditionals="2" coveredstatements="3"/>
+            </class>
+            <line complexity="3" visibility="public" signature="checkNumber(int) : String" num="4" count="3" type="method"/>
+            <line num="5" count="3" type="stmt"/>
+            <line falsecount="2" truecount="1" num="5" type="cond"/>
+            <line num="6" count="1" type="stmt"/>
+            <line num="8" count="2" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="java_coverage_openclover 1.0-SNAPSHOT" timestamp="1694082412749">
+      <metrics coveredelements="6" complexity="3" loc="30" methods="3" classes="1" statements="3" packages="1" coveredconditionals="0" coveredmethods="3" elements="6" ncloc="17" files="1" conditionals="0" coveredstatements="3"/>
+      <package name="default-pkg">
+         <metrics coveredelements="6" complexity="3" loc="30" methods="3" classes="1" statements="3" coveredconditionals="0" coveredmethods="3" elements="6" ncloc="17" files="1" conditionals="0" coveredstatements="3"/>
+         <file path="/Users/kuppusamy.suganya/Documents/github/moneyforwardvietnam/measure_coverage_standard/java/src/test/java/JavaCoverageTests.java" name="JavaCoverageTests.java">
+            <metrics coveredelements="6" coveredconditionals="0" complexity="3" loc="30" coveredmethods="3" methods="3" elements="6" classes="1" ncloc="17" statements="3" conditionals="0" coveredstatements="3"/>
+            <class name="JavaCoverageTests">
+               <metrics coveredelements="6" complexity="3" methods="3" testruns="3" statements="3" coveredconditionals="0" coveredmethods="3" elements="6" testfailures="0" testduration="0.003" conditionals="0" coveredstatements="3" testpasses="3"/>
+            </class>
+            <line complexity="1" visibility="public" signature="testTC1() : void" num="16" testsuccess="true" count="1" testduration="0.003" type="method"/>
+            <line num="18" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testTC2() : void" num="21" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="23" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testTC3() : void" num="26" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="28" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>
